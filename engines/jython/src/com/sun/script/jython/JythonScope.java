@@ -70,7 +70,7 @@ final class JythonScope extends PyObject {
         }
     }
 
-    public PyObject __findattr__(String key) {
+    public PyObject __findattr_ex__(String key) {
         return __finditem__(key);
     }
 
